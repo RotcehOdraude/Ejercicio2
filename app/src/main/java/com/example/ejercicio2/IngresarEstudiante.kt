@@ -15,13 +15,15 @@ class IngresarEstudiante : AppCompatActivity() {
     private lateinit var volleyAPI: VolleyAPI
     private lateinit var url: String
     private val ipPuerto = "192.168.100.21:8080"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityIngresarEstudianteBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        volleyAPI = VolleyAPI(this)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         supportActionBar?.setHomeButtonEnabled(true)
+        volleyAPI = VolleyAPI(this)
+
         binding.ingresaJsonBtn.setOnClickListener {
             studentAdd()
         }
