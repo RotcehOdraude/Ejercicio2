@@ -6,4 +6,8 @@
     <string name="logo_unam">Logo UNAM</string>
     <string name="abrir">Abrir</string>
     <string name="cerrar">Cerrar</string>
+    <string name="ingresar_estudiante">Ingresar estudiante</string>
+    <string name="mostrar_estudiante">Mostrar estudiante</string>
+    <string name="buscar_estudiante">Buscar estudiante</string>
+    <string name="eliminar_estudiante">Eliminar estudiante</string>
 </resources>
