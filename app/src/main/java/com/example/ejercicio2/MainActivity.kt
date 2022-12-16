@@ -1,5 +1,6 @@
 package com.example.ejercicio2
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -41,6 +42,21 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     }
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.ingresar_estudiante -> { //Ingresar
+                startActivity(Intent(this,ConstraintActivity::class.java))
+            }
+            R.id.mostrar_estudiante -> { //Mostrar
+                startActivity(Intent(this,NestedScrollView::class.java))
+            }
+            R.id.buscar_estudiante -> { //Buscar
+                startActivity(Intent(this,CollapsingToolbarLayout::class.java))
+            }
+            R.id.eliminar_estudiante -> { //Eliminar
+                startActivity(Intent(this,Video::class.java))
+            }
+
+        }
         drawer.closeDrawer(GravityCompat.START)
         return true
     }
