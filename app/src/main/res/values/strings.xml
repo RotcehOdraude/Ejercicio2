@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ejercicio2</string>
+    <string name="dispositivos_moviles_8">Dispositivos Moviles 8</string>
+    <string name="constraint_layout">Constraint Layout</string>
+    <string name="titulo_barra">Modulo 7 de Android</string>
+    <string name="logo_unam">Logo UNAM</string>
+    <string name="abrir">Abrir</string>
+    <string name="cerrar">Cerrar</string>
+</resources>
