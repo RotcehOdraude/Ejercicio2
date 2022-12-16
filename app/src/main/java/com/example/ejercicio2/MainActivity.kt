@@ -47,13 +47,13 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 startActivity(Intent(this,IngresarEstudiante::class.java))
             }
             R.id.mostrar_estudiante -> { //Mostrar
-                startActivity(Intent(this,IngresarEstudiante::class.java))
+                startActivity(Intent(this,MostrarEstudiante::class.java))
             }
             R.id.buscar_estudiante -> { //Buscar
-                startActivity(Intent(this,IngresarEstudiante::class.java))
+                startActivity(Intent(this,BuscarEstudiante::class.java))
             }
             R.id.eliminar_estudiante -> { //Eliminar
-                startActivity(Intent(this,IngresarEstudiante::class.java))
+                startActivity(Intent(this,EliminarEstudiante::class.java))
             }
 
         }

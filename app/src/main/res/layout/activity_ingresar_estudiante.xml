@@ -121,7 +121,7 @@
             android:text="id:" />
 
         <EditText
-            android:id="@+id/materia_id"
+            android:id="@+id/materia_id_et"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:ems="10"
@@ -159,7 +159,7 @@
             android:text="creditos" />
 
         <EditText
-            android:id="@+id/materia_creditos"
+            android:id="@+id/materia_creditos_et"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:ems="10"
@@ -185,7 +185,7 @@
             android:text="nombre" />
 
         <EditText
-            android:id="@+id/materia_nombre"
+            android:id="@+id/materia_nombre_et"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:ems="10"
@@ -193,5 +193,16 @@
             android:minHeight="48dp"
             tools:ignore="SpeakableTextPresentCheck" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/ingresa_json_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JSON"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.88" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
